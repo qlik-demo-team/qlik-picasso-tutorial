@@ -1,0 +1,33 @@
+{
+  "name": "qlik-picasso-tutorial",
+  "version": "1.0.0",
+  "description": "Quick tutorial of Picasso.js using the Qlik Engine JSON API",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --watch --open"
+  },
+  "keywords": [
+    "qlik-sense",
+    "picasso.js",
+    "enigma.js"
+  ],
+  "author": "Colin McNamara",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "enigma.js": "^2.7.1",
+    "picasso-plugin-q": "^0.31.0",
+    "picasso.js": "^0.31.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
